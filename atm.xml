@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 5.1.1
+- https://www.phpmyadmin.net
+-
+- Host: 127.0.0.1
+- Generation Time: Jun 20, 2021 at 06:37 PM
+- Server version: 10.4.19-MariaDB
+- PHP Version: 8.0.7
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="atm" collation="utf8mb4_general_ci" charset="utf8mb4">
+            <pma:table name="atm">
+                CREATE TABLE `atm` (
+                  `AccountID` varchar(255) NOT NULL,
+                  `Password` varchar(255) NOT NULL,
+                  `AccountTyep` varchar(255) NOT NULL,
+                  `Name` varchar(255) NOT NULL,
+                  `Balance` varchar(255) NOT NULL
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Database: 'atm'
+    -->
+    <database name="atm">
+        <!-- Table atm -->
+        <table name="atm">
+            <column name="AccountID">100000</column>
+            <column name="Password">111111</column>
+            <column name="AccountTyep">Clerk Account</column>
+            <column name="Name">Rubayet</column>
+            <column name="Balance">500</column>
+        </table>
+        <table name="atm">
+            <column name="AccountID">100001</column>
+            <column name="Password">111111</column>
+            <column name="AccountTyep">Saving Account</column>
+            <column name="Name">Jack</column>
+            <column name="Balance">300</column>
+        </table>
+        <table name="atm">
+            <column name="AccountID">100002</column>
+            <column name="Password">111111</column>
+            <column name="AccountTyep">Credit Account</column>
+            <column name="Name">Alice</column>
+            <column name="Balance">300</column>
+        </table>
+        <table name="atm">
+            <column name="AccountID">100003</column>
+            <column name="Password">111111</column>
+            <column name="AccountTyep">Checking Account</column>
+            <column name="Name">Bob</column>
+            <column name="Balance">300</column>
+        </table>
+        <table name="atm">
+            <column name="AccountID">100004</column>
+            <column name="Password">111111</column>
+            <column name="AccountTyep">Saving Account</column>
+            <column name="Name">Jerry</column>
+            <column name="Balance">300</column>
+        </table>
+        <table name="atm">
+            <column name="AccountID">100000</column>
+            <column name="Password">111111</column>
+            <column name="AccountTyep">Clerk Account</column>
+            <column name="Name">Rubayet</column>
+            <column name="Balance">500</column>
+        </table>
+        <table name="atm">
+            <column name="AccountID">100001</column>
+            <column name="Password">111111</column>
+            <column name="AccountTyep">Saving Account</column>
+            <column name="Name">Jack</column>
+            <column name="Balance">300</column>
+        </table>
+        <table name="atm">
+            <column name="AccountID">100002</column>
+            <column name="Password">111111</column>
+            <column name="AccountTyep">Credit Account</column>
+            <column name="Name">Alice</column>
+            <column name="Balance">300</column>
+        </table>
+        <table name="atm">
+            <column name="AccountID">100003</column>
+            <column name="Password">111111</column>
+            <column name="AccountTyep">Checking Account</column>
+            <column name="Name">Bob</column>
+            <column name="Balance">300</column>
+        </table>
+        <table name="atm">
+            <column name="AccountID">100004</column>
+            <column name="Password">111111</column>
+            <column name="AccountTyep">Saving Account</column>
+            <column name="Name">Jerry</column>
+            <column name="Balance">300</column>
+        </table>
+    </database>
+</pma_xml_export>
